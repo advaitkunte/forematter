@@ -64,7 +64,17 @@ h6 {
 .img-centered {
     margin: 0 auto;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
+a:hover 
+{
+     color:inherit; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
 .bg-cymba {
 background-attachment: scroll;
     background-image: url(../img/aqua.jpg);
@@ -558,6 +568,11 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading123{
+    padding-top: 22%;
+    text-transform: none;
 }
 
 .timeline .timeline-heading h4.subheading {
