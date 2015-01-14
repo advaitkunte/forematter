@@ -13,6 +13,11 @@ body {
     color: #777;
 }
 
+/*Text for team member description*/
+.text-team {
+    color: #000;
+}
+
 .contact-text {
     color: #ddd;
 }
@@ -75,6 +80,7 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
+
 .bg-cymba {
 background-attachment: scroll;
     background-image: url(../img/aqua.jpg);
@@ -85,8 +91,24 @@ background-attachment: scroll;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.bg-team {
+background-attachment: scroll;
+    background-image: url(../img/team_bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-med-gray {
+    background-color: #d1d1d1;
 }
 
 .bg-darkest-gray {
